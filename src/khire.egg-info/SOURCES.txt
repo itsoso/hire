@@ -1,9 +1,0 @@
-pyproject.toml
-src/khire/__init__.py
-src/khire/config.py
-src/khire/main.py
-src/khire.egg-info/PKG-INFO
-src/khire.egg-info/SOURCES.txt
-src/khire.egg-info/dependency_links.txt
-src/khire.egg-info/requires.txt
-src/khire.egg-info/top_level.txt
