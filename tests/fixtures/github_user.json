@@ -1,0 +1,13 @@
+{
+  "login": "testuser",
+  "name": "Test User",
+  "bio": "ML engineer building cool stuff",
+  "public_repos": 42,
+  "followers": 1500,
+  "following": 200,
+  "created_at": "2018-01-15T00:00:00Z",
+  "company": "OpenAI",
+  "location": "San Francisco",
+  "blog": "https://testuser.dev",
+  "twitter_username": "testuser"
+}
