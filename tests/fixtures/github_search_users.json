@@ -1,0 +1,27 @@
+{
+  "total_count": 3,
+  "incomplete_results": false,
+  "items": [
+    {
+      "login": "ml_expert",
+      "id": 1001,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1001",
+      "type": "User",
+      "score": 95.0
+    },
+    {
+      "login": "pytorch_dev",
+      "id": 1002,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1002",
+      "type": "User",
+      "score": 88.0
+    },
+    {
+      "login": "data_scientist",
+      "id": 1003,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1003",
+      "type": "User",
+      "score": 75.0
+    }
+  ]
+}

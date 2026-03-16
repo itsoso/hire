@@ -45,3 +45,11 @@ class GitHubClient:
             f"/users/{username}/events",
             params={"per_page": per_page},
         )
+
+    async def search_users(self, query: str, per_page: int = 30) -> list[dict]:
+        """Search GitHub users. Returns list of user dicts."""
+        result = await self._get(
+            "/search/users",
+            params={"q": query, "per_page": per_page},
+        )
+        return result.get("items", []) if isinstance(result, dict) else []
