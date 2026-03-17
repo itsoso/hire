@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     github_token: str = ""
     default_llm_model: str = "gpt-4o-mini"
 
-    model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
+    model_config = {"env_file": ".env", "env_file_encoding": "utf-8", "extra": "ignore"}
 
 
 settings = Settings()

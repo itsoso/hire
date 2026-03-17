@@ -86,7 +86,7 @@ function ScholarSection({ data }: { data: ScholarData }) {
         </div>
         <div className="bg-gray-50 rounded-lg p-4 text-center">
           <div className="text-2xl font-bold text-indigo-600">
-            {data.total_citations.toLocaleString()}
+            {data.total_citations}
           </div>
           <div className="text-xs text-gray-500">Citations</div>
         </div>
@@ -116,7 +116,7 @@ function ScholarSection({ data }: { data: ScholarData }) {
                   </p>
                 </div>
                 <span className="text-sm text-gray-500 whitespace-nowrap">
-                  {paper.citations.toLocaleString()} citations
+                  {paper.citations} citations
                 </span>
               </div>
             ))}
@@ -293,7 +293,7 @@ export default function DeveloperPage() {
                 >
                   <span className="text-sm">{repo.name}</span>
                   <span className="text-sm text-gray-500">
-                    ★ {repo.stars.toLocaleString()}
+                    ★ {repo.stars}
                   </span>
                 </div>
               ))}

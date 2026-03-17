@@ -128,7 +128,7 @@ export default function AnalyzePage() {
                 >
                   <span className="text-sm">{repo.name}</span>
                   <span className="text-sm text-gray-500">
-                    ★ {repo.stars.toLocaleString()}
+                    ★ {repo.stars}
                   </span>
                 </div>
               ))}
